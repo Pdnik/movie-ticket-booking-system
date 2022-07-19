@@ -15,7 +15,7 @@ module.exports = {
             subject: 'Your ticket',
             template: 'billing',
             context: {
-                "name": "Sir Alex Ferguson",
+                "name": "Mr. Nikhil Prasad",
                 "movie": order.movie.title,
                 "date": "18.06.2018",
                 "time": new Date(order.movie.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
